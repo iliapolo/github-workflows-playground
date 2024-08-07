@@ -13,5 +13,5 @@ jobs:
   sleep:
     runs-on: ubuntu-latest
     steps:
-      - run: for i in {1..12}; do echo "sleeping"; sleep 5; done
+      - run: for i in {1..24}; do echo "sleeping"; sleep 5; done; exit 1;
   
